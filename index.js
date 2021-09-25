@@ -60,7 +60,7 @@ export async function main() {
   )
 
   function render(ellapsedTime) {
-    // Consider ellapsedTime
+    // TODO: Consider ellapsedTime
     radius += radiusChange
     if (Math.abs(radius - targetRadius) < RADIUS_CHANGE) {
       targetRadius = generateTargetRadius()
