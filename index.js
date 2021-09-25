@@ -78,8 +78,6 @@ export async function main() {
       )
     }
 
-    // context.fillStyle = 'rgba(255, 255, 255, 0.01)'
-    // context.fillRect(0, 0, window.innerWidth, window.innerHeight)
     context.clearRect(0, 0, window.innerWidth, window.innerHeight)
 
     function calculatePosition({ angle, radius }) {
